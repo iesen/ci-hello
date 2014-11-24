@@ -11,7 +11,7 @@ public class EchoService {
         }
         String result = "";
         for (String argument : arguments) {
-            result += argument + ",";
+            result += argument + ", ";
         }
         result = result.substring(0, result.length() - 2);
         return "Arguments: " + result;
