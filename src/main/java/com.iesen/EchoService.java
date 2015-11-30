@@ -7,7 +7,7 @@ public class EchoService {
 
     public String echoArguments(String... arguments) {
         if (arguments.length == 0) {
-            return "No arguments broken";
+            return "No arguments";
         }
         String result = "";
         for (String argument : arguments) {
